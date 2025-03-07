@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <h1>Helooo</h1>
+
+    <form__label">
+        <input
+          placeholder="Enter a number"
+          id="second-num"
+          type="number"
+          class="form__input"
+        />
+      </label>
+      <button type="submit" class="form__btn">Equal</button>
+      <p class="form__result">Result <span id="result"></span></p>
+    </form>
+<form id="form" class="form">
+      <label class="form__label">
+        <input
+          placeholder="Enter a number"
+          id="first-num"
+          type="number"
+          class="form__input"
+        />
+      </label>
+      <label class="form__wrapper">
+        +
+        <input 
+        type="radio" 
+        name="action" 
+        value="sum" 
+        class="form__radio" />
+      </label>
+      <label class="form__wrapper">
+        -
+        <input 
+        type="radio" 
+        name="action" 
+        value="sub" 
+        class="form__radio" />
+      </label>
+      <label class="form__wrapper">
+        *
+        <input type="radio" name="action" value="multi" class="form__radio" />
+      </label>
+      <label class="form__wrapper">
+        /
+        <input
+          type="radio"
+          name="action"
+          value="division"
+          class="form__radio"
+        />
+      </label>
+      <label class="form__label">
+        <input
+          placeholder="Enter a number"
+          id="second-num"
+          type="number"
+          class="form__input"
+        />
+      </label>
+      
 </body>
 </html>
